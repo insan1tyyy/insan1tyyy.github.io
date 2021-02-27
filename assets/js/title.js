@@ -1,6 +1,6 @@
-var text = ["$", " $", "s $", "ss $", "3ss $", "l3ss $", "nl3ss $", "wnl3ss $", "ownl3ss $","lownl3ss $","clownl3ss $","clownl3s $", "clownl $", "clown $", "clow $", "clo $", "cl $", "c $"];
+var text = ["$", " $", "y $", "ty $", "1ty $", "n1ty $", "an1ty $", "san1ty $", "nsan1ty $","insan1ty $","insan1ty $","insan1t $", "insan1 $", "insan $", "insa $", "ins $", "in $", "i $"];
 var counter = 0
-var inst = setInterval(change, 300);
+var inst = setInterval(change, 200);
 
 function change() {
     document.title = text[counter];
