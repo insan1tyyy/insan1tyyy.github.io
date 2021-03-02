@@ -4,6 +4,6 @@ $(document).ready(function(){
     var randomNumber = Math.floor(Math.random() * classCycle.length);
     var classToAdd = classCycle[randomNumber];
 
-    $('hero').addClass(classToAdd);
+    $('.hero').addClass(classToAdd);
 
 });
