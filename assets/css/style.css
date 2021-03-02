@@ -133,8 +133,14 @@ width: 100%; height: 100%;
 object-fit: cover; 
 }
 
-.hero{
+.imageCycle1{
   background: url(../gif/background.gif) center center;
+}
+.imageCycle2{
+  background: url(../gif/background2.gif) center center;
+}
+
+.hero{
   background-size: cover;
   display: table;
   width: 100%;
